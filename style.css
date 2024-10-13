@@ -1,0 +1,114 @@
+/* Custom CSS styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #483D8B; /* Dark Slate Blue */
+    color: white;
+    padding: 15px 0;
+}
+
+header .navbar-brand {
+    font-size: 1.5rem;
+}
+
+header .nav-link {
+    color: white;
+    margin-left: 15px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #FFB6C1; /* Peach */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #483D8B; /* Dark Slate Blue */
+    color: white;
+    border: none;
+}
+
+/* Product Section */
+.product-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.product-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.product-card button {
+    padding: 8px 15px;
+    background-color: #483D8B; /* Dark Slate Blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #483D8B; /* Dark Slate Blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .product-card {
+        margin-bottom: 20px;
+    }
+}
