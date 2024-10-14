@@ -52,10 +52,11 @@ header .nav-link {
 .product-card {
     text-align: center;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #FFB6C1;
     border-radius: 10px;
     margin-bottom: 30px;
     transition: transform 0.3s ease-in-out;
+    background-color: #FFB6C1;
 }
 
 .product-card:hover {
